@@ -1,0 +1,35 @@
+.neo-modal__overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.neo-modal {
+  width: 100%;
+  max-width: 28rem;
+  background-color: var(--neo-white);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.neo-modal__title {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.neo-modal__body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.neo-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+}

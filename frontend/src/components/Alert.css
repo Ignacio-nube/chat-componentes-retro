@@ -1,0 +1,54 @@
+.neo-alert {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.neo-alert__content {
+  flex: 1;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.neo-alert__icon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.neo-alert__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.neo-alert__close {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.neo-alert--success {
+  background-color: var(--neo-green);
+  color: var(--neo-white);
+}
+
+.neo-alert--error {
+  background-color: var(--neo-red);
+  color: var(--neo-white);
+}
+
+.neo-alert--warning {
+  background-color: var(--neo-yellow);
+  color: var(--neo-black);
+}
+
+.neo-alert--info {
+  background-color: var(--neo-blue);
+  color: var(--neo-white);
+}

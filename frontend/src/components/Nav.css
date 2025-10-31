@@ -1,0 +1,32 @@
+.neo-nav {
+  background-color: var(--neo-black);
+  color: var(--neo-white);
+  padding: 1rem;
+}
+
+.neo-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.neo-nav__item {
+  margin: 0;
+}
+
+.neo-nav__link {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.neo-nav__link:hover,
+.neo-nav__link:focus {
+  text-decoration: underline;
+  outline: none;
+}

@@ -1,0 +1,71 @@
+.neo-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.neo-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--neo-black);
+}
+
+.neo-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.neo-button--yellow {
+  background-color: var(--neo-yellow);
+  color: var(--neo-black);
+}
+
+.neo-button--yellow:hover {
+  background-color: var(--neo-yellow-dark);
+}
+
+.neo-button--black {
+  background-color: var(--neo-black);
+  color: var(--neo-white);
+}
+
+.neo-button--black:hover {
+  background-color: var(--neo-gray-900);
+}
+
+.neo-button--red {
+  background-color: var(--neo-red);
+  color: var(--neo-white);
+}
+
+.neo-button--red:hover {
+  background-color: var(--neo-red-dark);
+}
+
+.neo-button--green {
+  background-color: var(--neo-green);
+  color: var(--neo-white);
+}
+
+.neo-button--green:hover {
+  background-color: var(--neo-green-dark);
+}
+
+.neo-button--gray {
+  background-color: var(--neo-gray-300);
+  color: var(--neo-black);
+}
+
+.neo-button--gray:hover {
+  background-color: var(--neo-gray-400);
+}
+
+.neo-button--text-black {
+  color: var(--neo-black);
+}
+
+.neo-button--text-white {
+  color: var(--neo-white);
+}

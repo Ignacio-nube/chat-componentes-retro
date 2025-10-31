@@ -1,0 +1,44 @@
+.neo-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.neo-avatar--rounded {
+  border-radius: 999px;
+}
+
+.neo-avatar--bg-gray {
+  background-color: var(--neo-gray-300);
+}
+
+.neo-avatar--bg-yellow {
+  background-color: var(--neo-yellow);
+}
+
+.neo-avatar--bg-black {
+  background-color: var(--neo-black);
+}
+
+.neo-avatar--text-black {
+  color: var(--neo-black);
+}
+
+.neo-avatar--text-white {
+  color: var(--neo-white);
+}
+
+.neo-avatar__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.neo-avatar__initials {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

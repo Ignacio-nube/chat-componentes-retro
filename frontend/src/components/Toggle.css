@@ -1,0 +1,46 @@
+.neo-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.neo-toggle--disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.neo-toggle__input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.neo-toggle__track {
+  position: relative;
+  width: 3rem;
+  height: 1.5rem;
+  background-color: var(--neo-gray-300);
+  border-radius: 999px;
+}
+
+.neo-toggle__thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--neo-black);
+  border-radius: 999px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.neo-toggle__thumb--checked {
+  transform: translateX(100%);
+}
+
+.neo-toggle__label {
+  font-size: 1.125rem;
+  font-weight: 500;
+}

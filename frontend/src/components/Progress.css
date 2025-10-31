@@ -1,0 +1,44 @@
+.neo-progress-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.neo-progress {
+  width: 100%;
+  background-color: var(--neo-gray-300);
+  height: 1.5rem;
+  overflow: hidden;
+}
+
+.neo-progress__bar {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.neo-progress__label {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.neo-progress__bar--black {
+  background-color: var(--neo-black);
+}
+
+.neo-progress__bar--yellow {
+  background-color: var(--neo-yellow);
+}
+
+.neo-progress__bar--green {
+  background-color: var(--neo-green);
+}
+
+.neo-progress__bar--red {
+  background-color: var(--neo-red);
+}
+
+.neo-progress__bar--blue {
+  background-color: var(--neo-blue);
+}

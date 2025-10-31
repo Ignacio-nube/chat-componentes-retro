@@ -1,0 +1,14 @@
+.neo-input {
+  color: black;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  background-color: var(--neo-white);
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.neo-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--neo-black);
+}

@@ -1,0 +1,50 @@
+.neo-tabs {
+  background-color: var(--neo-white);
+}
+
+.neo-tabs__list {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 4px solid var(--neo-black);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.neo-tabs__trigger {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background-color: var(--neo-gray-200);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.neo-tabs__trigger--active {
+  background-color: var(--neo-yellow);
+  color: var(--neo-black);
+}
+
+.neo-tabs__trigger--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.neo-tabs__trigger:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+.neo-tabs__panel {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.neo-tabs__panel--hidden {
+  display: none;
+}
+
+.neo-tabs__panel-container {
+  padding: 1rem;
+}

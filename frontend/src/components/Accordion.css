@@ -1,0 +1,46 @@
+.neo-accordion {
+  background-color: var(--neo-white);
+}
+
+.neo-accordion__item {
+  border-bottom: 4px solid var(--neo-black);
+}
+
+.neo-accordion__trigger {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.neo-accordion__trigger--disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.neo-accordion__trigger:focus {
+  outline: none;
+  text-decoration: underline;
+}
+
+.neo-accordion__icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.neo-accordion__panel {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.neo-accordion__panel--hidden {
+  display: none;
+}

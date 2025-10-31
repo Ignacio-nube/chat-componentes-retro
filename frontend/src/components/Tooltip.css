@@ -1,0 +1,53 @@
+.neo-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.neo-tooltip__trigger {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  background-color: var(--neo-yellow);
+  color: var(--neo-black);
+}
+
+.neo-tooltip__bubble {
+  position: absolute;
+  z-index: 10;
+  width: 12rem;
+  background-color: var(--neo-black);
+  color: var(--neo-white);
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  display: none;
+}
+
+.neo-tooltip__bubble--visible {
+  display: block;
+}
+
+.neo-tooltip__bubble--top {
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -0.5rem);
+}
+
+.neo-tooltip__bubble--bottom {
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0.5rem);
+}
+
+.neo-tooltip__bubble--left {
+  right: 100%;
+  top: 50%;
+  transform: translate(-0.5rem, -50%);
+}
+
+.neo-tooltip__bubble--right {
+  left: 100%;
+  top: 50%;
+  transform: translate(0.5rem, -50%);
+}

@@ -1,0 +1,59 @@
+.neo-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.neo-dropdown__button {
+  width: 100%;
+  min-width: 12.5rem;
+  text-align: center;
+}
+
+.neo-dropdown__menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  z-index: 10;
+  min-width: 12.5rem;
+  background-color: var(--neo-white);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  left: 0;
+}
+
+.neo-dropdown__item {
+  margin: 0;
+}
+
+.neo-dropdown__menu--open {
+  display: block;
+}
+
+.neo-dropdown__menu--align-right {
+  left: auto;
+  right: 0;
+}
+
+.neo-dropdown__link,
+.neo-dropdown__action {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--neo-gray-900);
+  transition: background-color 0.2s ease;
+}
+
+.neo-dropdown__link:hover,
+.neo-dropdown__link:focus,
+.neo-dropdown__action:hover,
+.neo-dropdown__action:focus {
+  background-color: var(--neo-gray-200);
+  outline: none;
+}
